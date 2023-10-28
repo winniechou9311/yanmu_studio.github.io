@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  display: flex;
+  justify-content: center; /* 使左側和右側內容之間有最大空間 */
+  position: fixed;
+  top: 0;
+
+  height: 8rem;
+  width: 100%;
+
+  align-items: center;
+  border-bottom: none;
+
+  background-color: #ffffff9c;
+  box-shadow: rgba(0, 0, 0, 0.392) 0px 3px 8px;
+
+  position: relative;
+}
+
+.logo {
+  width: 14rem;
+  margin: 1rem 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+
+  font-family: "Lora", serif;
+  font-size: 16px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  padding: 10px 20px;
+}
+
+nav:not(:first-child) a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+nav:not(:first-child) a.active {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.NavLink {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li:first-child a {
+  position: absolute;
+  top: 0;
+  left: 2rem;
+}
+
+nav ul li:last-child a {
+  position: absolute;
+  right: 2rem;
+}
+
+nav ul li:nth-last-child(2) {
+  position: absolute;
+  right: 8rem;
+}
+
+ion-icon {
+  margin-right: 1rem;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.2rem;
+  z-index: 1000;
+}

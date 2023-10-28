@@ -1,0 +1,74 @@
+[
+  {
+    "key": 1,
+    "type": "Landscape",
+    "path": "./public/AlbumImg/Landscape/Landscape-8.jpeg",
+    "alt": "YANMU Homepage album landscape image"
+  },
+  {
+    "key": 2,
+    "type": "Landscape",
+    "path": "./public/AlbumImg/Landscape/Landscape-5.jpeg",
+    "alt": "YANMU Homepage album landscape image"
+  },
+  {
+    "key": 3,
+    "type": "Landscape",
+    "path": "./public/AlbumImg/Landscape/Landscape-4.jpeg",
+    "alt": "YANMU Homepage album landscape image"
+  },
+  {
+    "key": 4,
+    "type": "Protrait",
+    "path": "./public/AlbumImg/Portrait/Portrait-3.jpeg",
+    "alt": "YANMU Homepage album portrait image"
+  },
+  {
+    "key": 5,
+    "type": "Landscape",
+    "path": "./public/AlbumImg/Landscape/Landscape-2.jpeg",
+    "alt": "YANMU Homepage album landscape image"
+  },
+  {
+    "key": 6,
+    "type": "Landscape",
+    "path": "./public/AlbumImg/Landscape/Landscape-3.jpeg",
+    "alt": "YANMU Homepage album landscape image"
+  },
+  {
+    "key": 7,
+    "type": "Protrait",
+    "path": "./public/AlbumImg/Portrait/Portrait-2.jpeg",
+    "alt": "YANMU Homepage album Protrait image"
+  },
+  {
+    "key": 8,
+    "type": "Landscape",
+    "path": "./public/AlbumImg/Landscape/Landscape-6.jpeg",
+    "alt": "YANMU Homepage album landscape image"
+  },
+  {
+    "key": 9,
+    "type": "Landscape",
+    "path": "./public/AlbumImg/Landscape/Landscape-7.jpeg",
+    "alt": "YANMU Homepage album landscape image"
+  },
+  {
+    "key": 10,
+    "type": "Protrait",
+    "path": "./public/AlbumImg/Portrait/Portrait-1.jpeg",
+    "alt": "YANMU Homepage album Protrait image"
+  },
+  {
+    "key": 11,
+    "type": "Landscape",
+    "path": "./public/AlbumImg/Landscape/Landscape-9.jpeg",
+    "alt": "YANMU Homepage album landscape image"
+  },
+  {
+    "key": 12,
+    "type": "Landscape",
+    "path": "./public/AlbumImg/Landscape/Landscape-1.jpeg",
+    "alt": "YANMU Homepage album landscape image"
+  }
+]

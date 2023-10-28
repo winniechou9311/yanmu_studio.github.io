@@ -1,0 +1,67 @@
+/* .routes-container {
+  width: 100%;
+  padding: 2em;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+} */
+
+.member-content {
+  display: flex;
+}
+
+.member-section {
+  max-width: 50rem;
+  padding: 1em;
+  padding-right: 5rem;
+  border-right: 1px solid #ccc;
+  margin-bottom: 2em;
+  margin-right: 5em;
+}
+
+.label-input-group {
+  margin: 1em 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.input-checkbox-group {
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+button {
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin: 1em 0;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

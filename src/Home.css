@@ -1,0 +1,12 @@
+.Hero-Section {
+  background-image: url("./LoadingImg/foggyForest.jpeg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 9.6rem;
+}

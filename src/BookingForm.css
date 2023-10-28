@@ -1,0 +1,63 @@
+.booking-form {
+  background-color: #f7f7f7;
+  margin: 3rem;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form .form-group {
+  margin-bottom: 20px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.booking-price {
+  margin-top: 3rem;
+}
+
+.booking-form select,
+.booking-form input,
+.DatePicker {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.booking-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color: #555;
+}
+
+/* 修改DatePicker組件的根元素樣式 */
+.react-datepicker {
+  font-size: 1.2em; /* 增大日曆的字體大小 */
+}
+
+/* 修改日期的樣式 */
+.react-datepicker__day {
+  margin: 0.4em; /* 增加日期間的間隔 */
+}
+
+/* 修改月份與年份的樣式 */
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  font-size: 1.4em; /* 增大月份和年份的字體大小 */
+}
+
+/* 你也可以繼續調整其他元素，如週末的顏色、特定日期的背景色等 */

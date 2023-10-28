@@ -1,0 +1,55 @@
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 25rem); /* 3個固定寬度的列 */
+  grid-template-rows: repeat(5); /* 5個固定高度的行 */
+  gap: 20px; /* 格子間的間距 */
+}
+
+.album-item {
+  position: relative; /* 設為relative以使數字絕對定位於其內部 */
+  /* border: 1px solid #e0e0e0;
+    background-color: #f5f5f5; */
+  width: 25rem;
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+.album-img {
+  width: 100%;
+  background-position: center; /* 使圖像居中 */
+  background-repeat: no-repeat;
+  background-size: cover; /* 防止圖像重複 */
+}
+
+.album-img img {
+  max-width: 100%; /* 限制最大寬度 */
+  max-height: 100%; /* 限制最大高度 */
+  display: block; /* 去除圖片下方的間隙 */
+}
+
+/* 修改第四格為長方形，跨越兩行 */
+.album-item:nth-child(4) {
+  grid-row: 2 / 4; /* 從第二行開始到第四行之前 */
+}
+
+/* 修改第6格為長方形，跨越兩行 */
+.album-item:nth-child(7) {
+  grid-row: 2 / 5; /* 從第三行開始到第五行之前 */
+  grid-column: 3; /* 固定在第三欄 */
+}
+
+/* 修改第6格為長方形，跨越兩行 */
+.album-item:nth-child(10) {
+  grid-row: 4 / 6; /* 從第三行開始到第五行之前 */
+  grid-column: 2; /* 固定在第三欄 */
+}
+
+/* 修改第6格為長方形，跨越兩行 */
+.album-item:nth-child(11) {
+  grid-row: 4 / 5; /* 從第三行開始到第五行之前 */
+  grid-column: 3; /* 固定在第三欄 */
+}
+
+.album-item:hover {
+  transform: scale(1.05); /* 滑鼠滑過時放大效果 */
+}

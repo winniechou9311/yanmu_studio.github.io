@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice",
+        "email": "alice@example.com",
+        "address": {
+          "city": "Taipei",
+          "zip": "100"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "email": "bob@example.com",
+        "address": {
+          "city": "Taichung",
+          "zip": "400"
+        }
+      }
+    ],
+    "total": 2
+  },
+  "message": "Data fetched successfully"
+}
